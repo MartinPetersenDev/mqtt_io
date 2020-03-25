@@ -15,7 +15,7 @@ def main():
     #analog0 = io.Analog(0.0977, -12, 10000) # Temp = adc/10,24 # Called every 10,000 msec
 
     # Setup MQTT
-	## Configure MQTT BROKER/SERVER AND TOPIC
+    # Configure MQTT BROKER/SERVER AND TOPIC
     SERVER = "192.168.0.100"
     TOPIC = b"sensors/wemos"
 

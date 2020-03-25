@@ -6,7 +6,7 @@ import uasyncio as asyncio
 class network_connect:
 
     def __init__(self):
-		## Configure with SSID AND PSK
+        # Configure with SSID AND PSK
         self._ssid = ''
         self._psk = ''
 
